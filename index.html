@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="quiz-heading">
+        <h1>Your Quiz App</h1>
+    </div>
+    <div class="quiz-score hidden">
+        <p>You Scored <span class="actual-score">0% </span> of 100</p>
+    </div>
+    <div class="quiz-body">
+        <p class="quiz-instruction">Here is the instruction:</p>
+        <form action="" class="quiz-form">
+            <div class="questions-sections">
+                <p class="question">1. What do Web Developers Do?</p>
+                <div class="answers">
+                    <input type="radio" name="question1" value="A"> 
+                    <label class="form-answers">Build Websites</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="question1" value="B"> 
+                    <label class="form-answers">Dance Tango</label>
+                </div>
+            </div>
+
+            <div class="questions-sections">
+                <p class="question">2. What powers a computer?</p>
+                <div class="answers">
+                    <input type="radio" name="question2" value="A"> 
+                    <label class="form-answers">Electricity</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="question2" value="B"> 
+                    <label class="form-answers">Chakra</label>
+                </div>
+            </div>
+
+            <div class="questions-sections">
+                <p class="question">3. The ruler of a country is called?</p>
+                <div class="answers">
+                    <input type="radio" name="question3" value="A"> 
+                    <label class="form-answers">President</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="question3" value="B"> 
+                    <label class="form-answers">Hokage</label>
+                </div>
+            </div>
+
+            <div class="questions-sections">
+                <p class="question">4. How do you identify people from a country?</p>
+                <div class="answers">
+                    <input type="radio" name="question4" value="A"> 
+                    <label class="form-answers">Using ID Cards</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="question4" value="B"> 
+                    <label class="form-answers">Via Village Headbands</label>
+                </div>
+            </div>
+
+            <div class="questions-sections">
+                <p class="question">5. What are the modes of transportations?</p>
+                <div class="answers">
+                    <input type="radio" name="question5" value="A"> 
+                    <label class="form-answers">Air, Water Land, Train</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="question5" value="B"> 
+                    <label class="form-answers">Running on trees, Using a Jutsu</label>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

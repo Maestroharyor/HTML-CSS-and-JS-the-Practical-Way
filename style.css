@@ -98,15 +98,3 @@ button:hover{
     color: #e45353;
     cursor: pointer;
 }
-
-.not-found{
-    max-width: 100%;
-    color: #fff;
-    border: 2px dashed #fff;
-    font-size: 1.3rem;
-    padding: 20px;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    margin-bottom: 50px;
-}

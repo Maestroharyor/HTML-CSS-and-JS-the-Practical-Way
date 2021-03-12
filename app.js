@@ -2,7 +2,6 @@ let addtodos = document.querySelector('.add-todo');
 let todoslist = document.querySelector('.todos');
 let clearButton = document.querySelector('button.clear');
 let searchInput = document.querySelector('input.search-to-dos');
-let notFound = document.querySelector('.not-found');
 
 const todolistAppend = todo =>{
     let listTemplate = `<li class="todo-item">
@@ -21,11 +20,6 @@ const filterList = searchValue =>{
         } else {
             list.classList.add('filtered');
             let filteredList = todoslist.querySelectorAll('.filtered')
-            if( lists.length === filteredList.length){
-                notFound.style.display = "block";
-            } else{
-                notFound.style.display = "none";
-            }
         }
     })
 }
